@@ -1,10 +1,10 @@
-About this Dataset
-Context
+AUTOMOBILE DATASET
+
 This dataset consist of data From 1985 Ward's Automotive Yearbook. Here are the sources
 
 Sources:
 
-1) 1985 Model Import Car and Truck Specifications, 1985 Ward's Automotive Yearbook. 2) Personal Auto Manuals, Insurance Services Office, 160 Water Street, New York, NY 10038 3) Insurance Collision Report, Insurance Institute for Highway Safety, Watergate 600, Washington, DC 20037
+https://raw.githubusercontent.com/insaid2018/Term-1/master/Data/
 
 Content
 This data set consists of three types of entities: (a) the specification of an auto in terms of various characteristics, (b) its assigned insurance risk rating, (c) its normalized losses in use as compared to other cars. The second rating corresponds to the degree to which the auto is more risky than its price indicates. Cars are initially assigned a risk factor symbol associated with its price. Then, if it is more risky (or less), this symbol is adjusted by moving it up (or down) the scale. Actuarians call this process "symboling". A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe.
@@ -16,6 +16,9 @@ Note: Several of the attributes in the database could be used as a "class" attri
 Initial hypothesis or problem statements for my EDA on Automobile dataset:
 
 What are the highest selling cars based on brand, body-style, drive-wheels?
+
 Does engine parameters determine the car price? 
+
 Which of the cars have the highest normalized-losses based on car body type and style?
+
 Does body-style and size influence risk factor?
